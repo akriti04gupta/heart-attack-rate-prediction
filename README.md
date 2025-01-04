@@ -1,74 +1,51 @@
-Currency Converter
+# 🚑 Heart Attack Rate Prediction
 
-A simple and interactive web application for converting currencies in real-time. This project enables users to convert amounts between currencies using the latest exchange rates. 💱
+## 🌟 Overview
+Predicting heart attack risk just got smarter! This project leverages machine learning to analyze key health metrics and provide actionable insights for early detection and prevention of heart attacks. 
 
-🚀 Features
+## 🔥 Features
+- 🧠 **Intelligent Analysis**: Uncover hidden patterns with detailed Exploratory Data Analysis (EDA).
+- 🤖 **Machine Learning Models**: Train and evaluate cutting-edge models for heart attack prediction.
+- 📊 **Performance Insights**: Get metrics like accuracy, precision, recall, and F1-score to assess model effectiveness.
 
-🔄 Real-Time Conversion: Fetches the latest exchange rates for accurate currency conversion, ensuring you always have up-to-date information.
+## 📂 Dataset
+Our dataset captures critical health indicators, including:
+- 🧑‍⚕️ Age, Gender, Chest Pain Type
+- 💉 Resting Blood Pressure, Cholesterol Levels, Fasting Blood Sugar
+- 📈 Maximum Heart Rate, Oldpeak (ST Depression)
+- 🩺 Exercise-Induced Angina, Resting ECG Results
+- 🔬 Major Vessels Colored by Fluoroscopy, Thalassemia
 
-🎨 User-Friendly Interface: Designed with simplicity in mind, making it intuitive even for first-time users.
+### 🛠️ Preprocessing
+The dataset is meticulously preprocessed to handle missing values and normalize features, ensuring optimal model performance.
 
-📱 Responsive Design: Built to adapt seamlessly to all screen sizes, from mobile phones to desktops.
+## 🏗️ Project Structure
+```
+heart-attack-rate-prediction/
+├── data/                # Dataset files
+├── notebooks/           # Jupyter notebooks for analysis and modeling
+├── src/                 # Core source code for the project
+├── results/             # Evaluation metrics and visualizations
+├── requirements.txt     # Dependencies
+├── README.md            # Documentation
+```
 
-⚡ Dynamic Updates: Automatically retrieves the latest exchange rates from a reliable API without requiring a page refresh.
+## 🤖 Machine Learning Models
+We implemented and compared several powerful models:
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
 
-🔍 Multiple Currency Support: Supports conversion between a wide range of global currencies.
+## 📈 Results
+Our top-performing model achieved:
+- **Accuracy**: 
+- **Precision**: 
+- **Recall**: 
+- **F1-Score**: 
 
-💾 Lightweight Application: Optimized for speed and performance, ensuring minimal load times.
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-🛠️ Tech Stack
-
-Frontend:
-
-HTML: For structuring the web application.
-
-CSS: To style the application with modern and responsive designs.
-
-JavaScript: Adds interactivity and handles API calls.
-
-Backend/Logic:
-
-JavaScript: Processes user inputs, manages API responses, and performs currency conversion logic.
-
-API Integration:
-
-Utilizes a third-party API (e.g., ExchangeRate-API) to fetch real-time exchange rates, ensuring accuracy and reliability.
-
-Development Tools:
-
-Version Control: Git and GitHub for managing and collaborating on code.
-
-Browser DevTools: For testing and debugging the application during development.
-
-💡 Usage
-
-Launch the application in your web browser.
-
-Select the currencies you wish to convert between.
-
-Enter the amount to be converted.
-
-View the converted amount instantly.
-
-📂 Project Structure
-
-Currency-convertor/
-├── index.html        # Main HTML file
-├── styles.css        # Styling for the application
-├── script.js         # JavaScript logic for fetching and converting
-├── README.md         # Project documentation
-└── assets/           # Images and other static resources
-
-📜 License
-
-This project is licensed under the MIT License. Feel free to use, modify, and share it. See the LICENSE file for more details.
-
-🙌 Acknowledgements
-
-Exchange Rate API Providers: For providing real-time exchange rates to power this application.
-
-Open-Source Community: For the tools and resources that made this project possible.
-
-Start converting currencies effortlessly and enjoy a seamless experience! 🌟
-
-
+🎯 **Let’s make heart health predictions smarter and lives healthier!**
